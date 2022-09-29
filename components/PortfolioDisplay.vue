@@ -27,7 +27,11 @@ onMounted(() => {
   fetch('https://api.github.com/users/spreez00/repos')
     .then((response) => response.json())
     .then((data) => {
-      data.shift();
+      data.forEach((element) => {
+        if (element.name === 'SpreeZ00') {
+          data.splice(data.indexOf(element), 1);
+        }
+      });
       githubData.value = data;
     })
 })
