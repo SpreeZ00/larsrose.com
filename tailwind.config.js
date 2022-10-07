@@ -9,6 +9,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+        colors: {
+            'surface': '#111111',
+            'surface-variant': '#2b2b2b',
+            'surface-text': '#c4c4c4',
+            'surface-text-variant': '#e0e0e0',
+            'navigation-surface': '#3d3d3d',
+            'navigation-surface-text-hover': '#f9ce44',
+            'surface-sidebar': '#f9ce44',
+            'surface-portfoliocard': '#949494',
+        },
       screens: {
         'tablet': '600px',
       },

@@ -1,9 +1,10 @@
 <template>
-  <div class="bg-[#111111] text-[#c4c4c4]" id="top">
+  <div class="bg-surface text-surface-text" id="top">
     <NavigationBar />
+    <Sidebar />
     <div class="p-3">
       <div class="h-screen">
-        <div class="grid grid-cols-2 gap-4 place-items-center w-11/12 md:w-9/12 lg:8/12 mx-auto rounded-md p-3 bg-[#2b2b2b] text-[#e0e0e0]">
+        <div class="grid grid-cols-2 gap-4 place-items-center w-11/12 md:w-9/12 lg:8/12 mx-auto rounded-md p-3 bg-surface-variant text-surface-text-variant">
           <img class="rounded-full row-span-2 max-w-[10rem] md:max-w-[14rem] lg:max-w-[18rem]" src="/img/me.webp" alt="Bild von mir">
           <div class="col-span-1 row-span-2">
             <h1 class="text-xl">Hi, mein Name ist Lars.</h1>
@@ -24,16 +25,16 @@
             </p>
             <h3 class="text-2xl md:text-3xl lg:text-4xl my-4 md:my-7 lg:my-10">Meine Kenntnisse</h3>
             <div class="flex flex-wrap gap-2 max-w-[75%] mx-auto">
-              <p class="bg-[#2b2b2b] rounded-md px-1 py-1">HTML</p>
-              <p class="bg-[#2b2b2b] rounded-md px-1 py-1">CSS</p>
-              <p class="bg-[#2b2b2b] rounded-md px-1 py-1">JavaScript</p>
-              <p class="bg-[#2b2b2b] rounded-md px-1 py-1">Vue</p>
-              <p class="bg-[#2b2b2b] rounded-md px-1 py-1">GitHub</p>
-              <p class="bg-[#2b2b2b] rounded-md px-1 py-1">Responsive Design</p>
-              <p class="bg-[#2b2b2b] rounded-md px-1 py-1">SQL</p>
-              <p class="bg-[#2b2b2b] rounded-md px-1 py-1">WordPress</p>
-              <p class="bg-[#2b2b2b] rounded-md px-1 py-1">Node</p>
-              <p class="bg-[#2b2b2b] rounded-md px-1 py-1">Express</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">HTML</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">CSS</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">JavaScript</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">Vue</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">GitHub</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">Responsive Design</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">SQL</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">WordPress</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">Node</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">Express</p>
             </div>
           </div>
           <div class="col-span-2">
@@ -51,6 +52,7 @@
 
 <script setup>
 import EducationDisplay from "../components/EducationDisplay";
+import Sidebar from "../components/Sidebar";
 
 useHead({
   htmlAttrs: {
