@@ -2,13 +2,13 @@
   <div class="relative">
     <div class="fixed right-0 top-1/2 -mt-3.5 z-10 bg-surface-sidebar p-2 rounded-sm">
       <div class="grid grid-cols-1 gap-2">
-        <a href="https://www.github.com/SpreeZ00" target="_blank">
+        <a href="https://www.github.com/SpreeZ00" target="_blank" rel="noopener noreferrer">
           <GitHubIcon class="text-3xl" />
         </a>
-        <a href="https://www.discordapp.com/users/377490440644984834" target="_blank">
+        <a href="https://www.discordapp.com/users/377490440644984834" target="_blank" rel="noopener noreferrer">
           <DiscordIcon class="text-3xl" />
         </a>
-        <a href="https://www.linkedin.com/in/lars-niklas-rose" target="_blank">
+        <a href="https://www.linkedin.com/in/lars-niklas-rose" target="_blank" rel="noopener noreferrer">
           <LinkedInIcon class="text-3xl" />
         </a>
       </div>
