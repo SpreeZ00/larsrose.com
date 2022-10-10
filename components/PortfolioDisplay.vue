@@ -2,7 +2,7 @@
   <div class="mt-10">
     <div class="grid grid-cols-1 gap-1 place-items-center">
       <div class="flex gap-4 bg-surface-portfoliocard text-black p-3 rounded-md w-10/12" v-for="data in githubData">
-        <a class="self-center" :href="data.html_url" target="_blank" aria-label="Schau dir das Projekt auf GitHub an">
+        <a class="self-center" :href="data.html_url" target="_blank" rel="noopener noreferrer" aria-label="Schau dir das Projekt auf GitHub an">
           <GitHubIcon class="text-4xl" />
         </a>
         <div class="mx-auto">
