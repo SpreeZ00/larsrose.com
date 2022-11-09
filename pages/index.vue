@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-surface text-surface-text" id="top">
+  <div class="bg-surface text-surface-text overflow-x-hidden" id="top">
     <NavigationBar />
     <Sidebar />
     <div class="p-3">
