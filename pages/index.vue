@@ -35,6 +35,10 @@
               <p class="bg-surface-variant rounded-md px-1 py-1">WordPress</p>
               <p class="bg-surface-variant rounded-md px-1 py-1">Node</p>
               <p class="bg-surface-variant rounded-md px-1 py-1">Express</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">Next.js</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">TailwindCSS</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">React</p>
+              <p class="bg-surface-variant rounded-md px-1 py-1">Prisma</p>
             </div>
           </div>
           <div class="col-span-2">
