@@ -10,7 +10,7 @@
         <h3 class="tablet:mt-3">Nuxt 3</h3>
         <NuxtIcon class="mt-3 tablet:mt-6 tablet:text-7xl text-6xl mx-auto" />
       </div>
-      <div class="text-center w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 text-xl bg-[#949494] rounded-md md:col-span-2 tablet:col-span-1">
+      <div class="text-center w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 text-xl bg-[#949494] rounded-md tablet:col-span-1">
         <h3 class="tablet:mt-3">Tailwindcss</h3>
         <TailwindIcon class="mt-3 tablet:mt-6 tablet:text-7xl text-6xl mx-auto" />
       </div>
