@@ -8,7 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@iconify-json/bi": "^1.1.8",
+    "@iconify-json/bi": "^1.1.14",
     "@iconify-json/logos": "^1.1.18",
     "@iconify-json/vscode-icons": "^1.1.16",
     "nuxt": "3.0.0-rc.11",
